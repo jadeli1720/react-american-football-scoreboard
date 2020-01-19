@@ -8,7 +8,8 @@ function App() {
   let [homeScore, setHomeScore] = useState(0)
   let [awayScore, setAwayScore] = useState(0)
 
-  console.log("homeScore", homeScore)
+  // console.log("homeScore", homeScore)
+  // console.log("awayScore", awayScore)
   
   return (
     <div className="container">
