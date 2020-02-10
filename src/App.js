@@ -1,5 +1,5 @@
 //TODO: STEP 1 - Import the useState hook.
-import React, {useState, useEffect} from "react";
+import React, {useState} from "react";
 import "./App.css";
 import BottomRow from "./Components/BottomRow";
 import TopRow from "./Components/TopRow";
@@ -14,36 +14,6 @@ function App() {
   // console.log("homeScore", homeScore)
   // console.log("awayScore", awayScore)
 
-//   const handleScores = (teamName, scoreChange) => {
-//     // if teamName = home
-//     if(teamName === 'home' && scoreChange === 'touchdown'){
-//         // if scoreChange = 7
-//         setHomeScore(homeScore += 7)
-//         console.log('Home touch down', homeScore)
-//     }        
-//     // if scoreChange = 3
-//     else if(teamName === 'home' && scoreChange === 'fieldgoal'){
-//         setHomeScore(homeScore += 3)
-//         console.log('Home field goal', homeScore)
-//     }
-    
-//     // if teamName = Away
-//     else if(teamName === "away" && scoreChange === 'touchdown'){
-//         setAwayScore(awayScore += 7)
-//         console.log('Away team touch down', awayScore)
-//     }
-//     // if scoreChange = 3
-//     else if(teamName === "away" && scoreChange === 'fieldgoal'){
-//         setAwayScore(awayScore += 3)
-//         console.log('Away team field goal', awayScore)
-//     }
-// }
-
-
-
-  // console.log("homeScore", homeScore)
-  // console.log("awayScore", awayScore)
-  
   return (
     <div className="container">
       <section className="scoreboard">
