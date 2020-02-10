@@ -10,7 +10,6 @@ function App() {
   //NOTE: cannot set the useState to a const or it can't be changed by the setter function
   let [ homeScore, setHomeScore ] = useState(0);
   let [awayScore, setAwayScore ] = useState(0);
-
   // console.log("homeScore", homeScore)
   // console.log("awayScore", awayScore)
 
