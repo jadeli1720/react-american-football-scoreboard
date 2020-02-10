@@ -4,11 +4,10 @@ import React from "react";
 
 const Buttons = (props) => {
     // destructuring props passed from App.js
-    let homeScore = [props]
-    let awayScore = [props]
+    let {homeScore, awayScore} = props
     // let setHomeScore = [props]
     // let setAwayScore = [props]
-    console.log(props.homeScore)
+    console.log("Props", props)
 
     // handler functions for scores:
     /*
